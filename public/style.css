@@ -87,6 +87,7 @@ p,h1,h2{margin:0}
 .footer-inner a:hover{color:var(--indigo);text-decoration-color:var(--indigo)}
 
 @media(max-width:520px){
+  body{background-image:url('assets/woodfree-white-mobile.webp');background-size:430px auto}
   .shell{width:calc(100% - 36px)}
   .intro{padding:52px 0 44px}
   .intro h1{font-size:36px}
