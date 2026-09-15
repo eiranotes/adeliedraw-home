@@ -74,6 +74,19 @@ GitHub가 새 custom domain으로 영구 이동을 제공하면 그 동작을 �
 
 루트를 Brand Home으로 바꾸기 전에 현재 `adeliedraw.com`의 외부 유입 URL을 수집한다.
 
+2026-09-15 현재 Cafe24 sitemap 기준 119개 URL을 `LEGACY_SHOP_URL_INVENTORY.csv`에 저장했다.
+
+- 상품: 51
+- 카테고리: 62
+- 게시판: 2
+- 회원/약관: 2
+- 쇼핑몰 정보: 1
+- 홈: 1
+
+홈 `/`은 Brand Home으로 바뀌므로 리다이렉트 대상에서 제외한다. 나머지 sitemap URL은 우선 동일 path를 `shop.adeliedraw.com`에 보존하는 정책으로 기록했다.
+
+현재 sitemap의 모든 URL host는 `adeliedraw.cafe24.com`이며, `adeliedraw.com`으로 접속한 상품 상세의 canonical도 `adeliedraw.cafe24.com`으로 확인됐다. `shop.adeliedraw.com`을 대표/연결 도메인으로 확정할 때 sitemap과 canonical host가 새 shop 주소로 바뀌는지 반드시 검증한다.
+
 최소 범위:
 
 - 상품 상세 URL
