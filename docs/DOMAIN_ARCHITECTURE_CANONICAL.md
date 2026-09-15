@@ -259,6 +259,8 @@ GitHub 사용자 사이트의 `app.adeliedraw.com` 설정을 루트 도메인으
 - [x] `Portfolio / Shop / Apps` 목적지 확정
 - [x] Brand Home의 폰트·모조지 자산을 자체 `assets/`로 복제
 - [x] Brand Home 데스크톱/모바일 렌더 검수
+- [x] Brand Home 소스를 `eiranotes/adeliedraw-home` 저장소에 정본화
+- [x] Portfolio 전용 도메인 메타데이터 전환 브랜치 `domain/portfolio-subdomain` 준비 및 검증
 - [ ] `shop.adeliedraw.com`을 Cafe24 공식몰에 독립 연결
 - [ ] `portfolio.adeliedraw.com`을 기존 Portfolio 배포에 독립 연결
 - [ ] Portfolio의 canonical/hreflang/OG/sitemap 변경
@@ -280,3 +282,5 @@ GitHub 사용자 사이트의 `app.adeliedraw.com` 설정을 루트 도메인으
 - 앱 확장은 `app` 아래 경로 우선 원칙으로 확정.
 - 언어 확장은 경로 우선 원칙으로 확정.
 - 운영·CDN·API·단축 URL은 조건부 예약 이름으로만 정의하고 선점 생성하지 않기로 함.
+- Brand Home 저장소를 생성하고, 실제 전환 절차는 `DOMAIN_MIGRATION_RUNBOOK.md`로 분리함.
+- 현재 `shop.adeliedraw.com`과 `portfolio.adeliedraw.com`은 apex CNAME 의존 상태이며 HTTPS가 준비되지 않아 공개 목적지로 사용하지 않음을 재확인함.

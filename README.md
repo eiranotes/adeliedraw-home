@@ -15,3 +15,5 @@ Adelie Pages에서 사용 중인 LINE Seed Sans KR과 모조지 텍스처를 `pu
 ## 정본 문서
 
 도메인 역할, URL 규칙, 확장 원칙, DNS/SEO/보안 운영 규칙의 단일 정본은 `docs/DOMAIN_ARCHITECTURE_CANONICAL.md`다. 과거 조사·이행 문서는 참고 기록으로만 사용한다.
+
+실제 전환 순서와 검증·롤백 절차는 `docs/DOMAIN_MIGRATION_RUNBOOK.md`에서 관리한다.
